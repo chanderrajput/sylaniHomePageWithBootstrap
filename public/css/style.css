@@ -1,0 +1,245 @@
+body {
+    background-color: rgba(253, 246, 246, 0.986);
+}
+
+header {
+    background-color: rgb(12, 12, 211);
+    width: auto;
+    height: 48px;
+    line-height: 48px;
+    opacity: 0.8;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.diva a {
+    background-color: white;
+    color: rgb(41, 40, 40);
+    font-size: 12px;
+    padding: 4px;
+}
+
+.diva a:hover {
+    text-decoration: none;
+}
+
+.row1 {
+    height: 70px;
+    padding-top: 10px;
+}
+
+.row1 li {
+    padding-top: 10px;
+    margin: -2.5px;
+}
+
+.row1 a {
+    color: black;
+    font-weight: 500;
+    border-radius: 30px;
+    height: 20px;
+    padding-bottom: 30px;
+}
+
+.divlink {
+    margin-left: 120px;
+}
+
+.divlink a:hover {
+    background-color: blue;
+}
+
+.divlink a:active {
+    background-color: blue;
+}
+
+.divlink a:visited {
+    background-color: blue;
+}
+
+.img1 {
+    height: 500px;
+    width: 100%;
+}
+
+.container1 {
+    background-color: rgb(46, 46, 245);
+    height: 35px;
+    font-size: medium;
+}
+
+.divCounter {
+    background-color: blue;
+    height: 300px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.divCounter img {
+    width: 60px;
+}
+
+.box li {
+    height: 180px;
+    width: 350px;
+    line-height: 120px;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    width: 50px;
+    margin-right: 100%;
+}
+
+.list2 li {
+    height: 80px;
+    width: 350px;
+    background-color: rgb(236, 234, 230);
+    margin-top: 5px;
+    text-align: start;
+    line-height: 80px;
+    border: 1px solid white;
+    padding-left: 30px;
+}
+
+.list3,
+.list2 {
+    height: 250px;
+}
+
+.list2 h6 {
+    display: inline;
+}
+
+.list3 marquee {
+    width: 300px;
+    height: 150px;
+}
+
+.list3 marquee a:hover {
+    text-decoration: none;
+}
+
+.gallery img {
+    width: 210px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.footer1 {
+    margin-top: 180px;
+    height: 350px;
+    padding-top: 80px;
+}
+
+.footer1 table {
+    line-height: 20px;
+}
+
+.footer1 p {
+    font-size: medium;
+    margin-top: -9px;
+}
+
+.footer1 table tr {
+    margin-left: 100px;
+}
+
+.footer2 {
+    height: 35px;
+    color: white;
+    font-size: small;
+    line-height: 35px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
+.slider {
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+}
+
+.slider figure div {
+    float: left;
+    width: 20%;
+}
+
+.slider figure img {
+    width: 100%;
+    float: left;
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0;
+    animation: 10s chander infinite;
+}
+
+@keyframes chander {
+    0% {
+        left: 0%;
+    }
+    10% {
+        left: 0%;
+    }
+    12% {
+        left: -100%;
+    }
+    22% {
+        left: -100%;
+    }
+    24% {
+        left: -200%;
+    }
+    34% {
+        left: -200%;
+    }
+    36% {
+        left: -300%;
+    }
+    46% {
+        left: -300%;
+    }
+    48% {
+        left: -400%;
+    }
+    58% {
+        left: -400%;
+    }
+    60% {
+        left: -300%;
+    }
+    70% {
+        left: -300%;
+    }
+    72% {
+        left: -200%;
+    }
+    82% {
+        left: -200%;
+    }
+    84% {
+        left: -100%;
+    }
+    94% {
+        left: -100%;
+    }
+    96% {
+        left: 0%;
+    }
+}
