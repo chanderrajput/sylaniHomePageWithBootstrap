@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Sylani Home Page</title>
 </head>
 
@@ -51,13 +54,74 @@
             <div class="row row1">
                 <div class="col-sm-3 align-self-end"><img src="img/sylani.png" style="width: 180px; height:50px; margin-bottom: 10px;"></div>
                 <div class="divlink">
-                    <ul>
+                    <ul id="menu">
                         <li><a href="index.html" class="nav-link">Home</a></li>
-                        <li><a href="" class="nav-link btn dropdown-toggle">About</a></li>
-                        <li><a href="" class="nav-link btn dropdown-toggle">Sylani Services</a></li>
-                        <li><a href="" class="nav-link btn dropdown-toggle">Future Projects</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="nav-link btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  About
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Introduction</a>
+                                    <a class="dropdown-item" href="#">Chairman Message</a>
+                                    <a class="dropdown-item" href="#">Saylani Annual Report</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="nav-link btn dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sylani Services
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Education</a>
+                                    <a class="dropdown-item" href="#">Medical</a>
+                                    <a class="dropdown-item" href="#">Welfare</a>
+                                    <a class="dropdown-item" href="#">Hajj Application Form</a>
+                                    <a class="dropdown-item" href="#">Saylani Dastarkhwan</a>
+                                    <a class="dropdown-item" href="#">Saylani RO plant</a>
+                                    <a class="dropdown-item" href="#">Online Sadqah</a>
+                                    <a class="dropdown-item" href="#">Online Taweezat/Istekhara</a>
+                                    <a class="dropdown-item" href="#">Saylani Job Bank</a>
+                                    <a class="dropdown-item" href="#">Online Quran Academy</a>
+                                    <a class="dropdown-item" href="#">Books</a>
+                                    <a class="dropdown-item" href="#">Saylani Online Masjid</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="dropdown">
+                                <a class="nav-link btn dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Future Projects
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Saylani University</a>
+                                    <a class="dropdown-item" href="#">Saylani City</a>
+                                </div>
+                            </div>
+                        </li>
+
                         <li><a href="" class="nav-link ">Media</a></li>
-                        <li><a href="" class="nav-link btn dropdown-toggle">Donation</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="nav-link btn dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Donation
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Bank Details</a>
+                                    <a class="dropdown-item" href="#">Sadqa</a>
+                                    <a class="dropdown-item" href="#">Aqiqa</a>
+                                    <a class="dropdown-item" href="#">Other Donation</a>
+                                    <a class="dropdown-item" href="#">Corona Effecties</a>
+                                    <a class="dropdown-item" href="#">Ramzan -2020</a>
+                                    <a class="dropdown-item" href="#">Contact Us</a>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -279,6 +343,10 @@
             }
         }
     </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 
